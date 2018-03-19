@@ -30,7 +30,7 @@ function indent() {
 }
 
 wget -O apt.tgz https://fruitice.fr/monapt.tgz
-tar -xzvf apt.tgz
+tar -xvf apt.tgz
 
 topic "Writing profile script"
 mkdir -p $BUILD_DIR/.profile.d
