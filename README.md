@@ -21,7 +21,7 @@ To start your node app with pm2, go to your `package.json`:
 }
 ```
 
-To monitor your application with [keymetrics](https://keymetrics.io/), got to your [Keymetrics Dashboard](https://app.keymetrics.io), get `public key` and `secret key`. After, you can go to heroku [apps](https://dashboard.heroku.com/apps/) settings, `Reveal  Config Vars` button and add:
+To monitor your application with [keymetrics](https://pm2.io/), got to your [PM2 Dashboard](https://app.pm2.io), get `public key` and `secret key`. After, you can go to heroku [apps](https://dashboard.heroku.com/apps/) settings, `Reveal  Config Vars` button and add:
 ```
 KEYMETRICS_PUBLIC
 ```
